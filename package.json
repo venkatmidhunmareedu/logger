@@ -1,0 +1,43 @@
+{
+  "name": "logger",
+  "version": "0.0.1",
+  "description": "A Simple logging util library for better log context",
+  "homepage": "https://github.com/venkatmidhunmareedu/logger#readme",
+  "bugs": {
+    "url": "https://github.com/venkatmidhunmareedu/logger/issues"
+  },
+  "license": "MIT",
+  "author": "venkatmidhunmareedu <midhunmareedu@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venkatmidhunmareedu/logger.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "vp pack",
+    "dev": "vp pack --watch",
+    "test": "vp test",
+    "check": "vp check",
+    "prepublishOnly": "vp run build",
+    "prepare": "vp config"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@typescript/native-preview": "7.0.0-dev.20260328.1",
+    "bumpp": "^11.0.1",
+    "jsdom": "^29.1.0",
+    "typescript": "^6.0.2",
+    "vite-plus": "^0.1.14"
+  },
+  "packageManager": "pnpm@10.33.2"
+}

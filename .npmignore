@@ -1,0 +1,7 @@
+.cursor/
+.vite-hooks/
+.vscode/
+.test/
+.gitignore
+AGENTS.md
+README.md
