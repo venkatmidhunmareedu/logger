@@ -1,6 +1,6 @@
-# vite-plus-starter
+# Logger
 
-A starter for creating a Vite Plus project.
+A Simple dedicated web console logger util
 
 ## Development
 
